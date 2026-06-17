@@ -1,0 +1,55 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bus Body -->
+  <path d="M10 25h95c2.76 0 5 2.24 5 5v35c0 2.76-2.24 5-5 5H10c-2.76 0-5-2.24-5-5V30c0-2.76 2.24-5 5-5z" fill="#EAB308"/>
+  
+  <!-- Bus Roof -->
+  <path d="M10 25h95v12H10V25z" fill="#CA8A04"/>
+  
+  <!-- Yellow School Bus Stripe -->
+  <rect x="10" y="35" width="95" height="3" fill="#B45309"/>
+  <rect x="10" y="55" width="95" height="3" fill="#B45309"/>
+  
+  <!-- Windows -->
+  <rect x="15" y="28" width="10" height="6" rx="1" fill="#E0F2FE" opacity="0.9"/>
+  <rect x="28" y="28" width="10" height="6" rx="1" fill="#E0F2FE" opacity="0.9"/>
+  <rect x="41" y="28" width="10" height="6" rx="1" fill="#E0F2FE" opacity="0.9"/>
+  <rect x="54" y="28" width="10" height="6" rx="1" fill="#E0F2FE" opacity="0.9"/>
+  <rect x="67" y="28" width="10" height="6" rx="1" fill="#E0F2FE" opacity="0.9"/>
+  <rect x="80" y="28" width="10" height="6" rx="1" fill="#E0F2FE" opacity="0.9"/>
+  <rect x="93" y="28" width="10" height="6" rx="1" fill="#E0F2FE" opacity="0.9"/>
+  
+  <!-- Side Windows -->
+  <rect x="15" y="42" width="8" height="10" rx="1" fill="#E0F2FE" opacity="0.8"/>
+  <rect x="28" y="42" width="8" height="10" rx="1" fill="#E0F2FE" opacity="0.8"/>
+  <rect x="41" y="42" width="8" height="10" rx="1" fill="#E0F2FE" opacity="0.8"/>
+  <rect x="54" y="42" width="8" height="10" rx="1" fill="#E0F2FE" opacity="0.8"/>
+  <rect x="67" y="42" width="8" height="10" rx="1" fill="#E0F2FE" opacity="0.8"/>
+  <rect x="80" y="42" width="8" height="10" rx="1" fill="#E0F2FE" opacity="0.8"/>
+  
+  <!-- Door -->
+  <rect x="88" y="40" width="12" height="20" rx="2" fill="#CA8A04"/>
+  <rect x="90" y="42" width="8" height="16" rx="1" fill="#A16207" opacity="0.7"/>
+  <circle cx="95" cy="50" r="1" fill="#F59E0B"/>
+  
+  <!-- Front Grille -->
+  <rect x="105" y="45" width="3" height="10" rx="1" fill="#B45309"/>
+  
+  <!-- Front Lights -->
+  <ellipse cx="107" cy="45" rx="3" ry="2" fill="#FEF3C7"/>
+  <ellipse cx="107" cy="45" rx="2" ry="1" fill="#F59E0B"/>
+  
+  <!-- Wheels -->
+  <circle cx="25" cy="62" r="8" fill="#374151"/>
+  <circle cx="25" cy="62" r="5" fill="#6B7280"/>
+  <circle cx="25" cy="62" r="2" fill="#9CA3AF"/>
+  <circle cx="95" cy="62" r="8" fill="#374151"/>
+  <circle cx="95" cy="62" r="5" fill="#6B7280"/>
+  <circle cx="95" cy="62" r="2" fill="#9CA3AF"/>
+  
+  <!-- "ESCOLA" Text -->
+  <rect x="35" y="48" width="40" height="6" rx="2" fill="#B45309"/>
+  <rect x="37" y="49.5" width="36" height="3" rx="1" fill="#FEF3C7" opacity="0.9"/>
+  
+  <!-- Motion Lines -->
+  <path d="M2 20h8M5 25h6M2 30h10" stroke="#EAB308" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>

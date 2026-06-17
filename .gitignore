@@ -1,0 +1,39 @@
+# Dependências
+node_modules/
+
+# Build output
+.output/
+.nuxt/
+dist/
+deploy.zip
+
+# Arquivos do editor AI (não relevante para o projeto)
+opencode.json
+
+# Variáveis de ambiente (contém credenciais FTP - NUNCA publicar!)
+.env
+.env.local
+.env.*.local
+
+# Scripts de diagnóstico com credenciais
+scripts/check-*.ps1
+scripts/upload-*.ps1
+scripts/delete-*.ps1
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.temp

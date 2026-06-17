@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-electric: #0052FF;
+  --brand-royal: #1E3A8A;
+  --brand-black: #000000;
+  --brand-dark: #1E293B;
+  --brand-white: #FFFFFF;
+  --brand-light: #F8FAFC;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-light text-brand-dark antialiased font-sans;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+
+  ::selection {
+    background-color: var(--brand-electric);
+    color: white;
+  }
+}
+
+@layer components {
+  .container-pro {
+    @apply max-w-7xl mx-auto px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-20 lg:py-24;
+  }
+
+  .card-pro {
+    @apply bg-white border border-secondary-200 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300;
+  }
+
+  .card-elevated {
+    @apply bg-white border border-secondary-200 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300;
+  }
+
+  .btn-pro {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 font-semibold text-sm rounded-xl transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn-pro bg-brand-electric text-white hover:bg-brand-royal focus:ring-brand-electric shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply btn-pro bg-white text-brand-dark border border-secondary-300 hover:bg-secondary-50 focus:ring-brand-electric;
+  }
+
+  .btn-accent {
+    @apply btn-pro bg-accent-500 text-white hover:bg-accent-600 focus:ring-accent-500 shadow-sm hover:shadow-md hover:scale-[1.02];
+  }
+
+  .btn-outline {
+    @apply btn-pro bg-transparent text-brand-electric border border-brand-electric hover:bg-brand-electric hover:text-white focus:ring-brand-electric;
+  }
+
+  .btn-ghost {
+    @apply btn-pro bg-transparent text-brand-dark hover:bg-secondary-100 focus:ring-brand-electric;
+  }
+
+  .text-gradient-brand {
+    @apply bg-gradient-to-r from-brand-electric to-brand-royal bg-clip-text text-transparent;
+  }
+
+  .nav-link {
+    @apply text-brand-dark/70 hover:text-brand-electric font-semibold text-sm tracking-wide transition-all duration-200 relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-electric rounded-full transition-all duration-300;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .input-pro {
+    @apply block w-full px-5 py-3.5 border border-secondary-300 rounded-xl text-brand-dark placeholder-secondary-400 focus:outline-none focus:ring-2 focus:ring-brand-electric focus:border-brand-electric transition-all duration-200 bg-white text-base;
+  }
+
+  .textarea-pro {
+    @apply input-pro resize-none;
+  }
+
+  .select-pro {
+    @apply input-pro cursor-pointer pr-12;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.25rem;
+  }
+
+  .badge-pro {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+  }
+
+  .badge-electric {
+    @apply badge-pro bg-brand-electric/10 text-brand-electric;
+  }
+
+  .badge-success {
+    @apply badge-pro bg-green-100 text-green-700;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.7s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Infinite Marquee Carousel */
+.animate-marquee {
+  display: flex;
+  animation: marquee 35s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate3d(-33.3333%, 0, 0);
+  }
+}

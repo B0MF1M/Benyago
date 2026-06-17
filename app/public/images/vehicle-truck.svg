@@ -1,0 +1,49 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Truck Cab -->
+  <path d="M15 35h30c2.76 0 5 2.24 5 5v25c0 2.76-2.24 5-5 5H15c-2.76 0-5-2.24-5-5V40c0-2.76 2.24-5 5-5z" fill="#DC2626"/>
+  
+  <!-- Truck Bed/Container -->
+  <path d="M50 30h50c2.76 0 5 2.24 5 5v30c0 2.76-2.24 5-5 5H50V30z" fill="#B91C1C"/>
+  
+  <!-- Cab Details -->
+  <path d="M15 35h30v5H15z" fill="#991B1B"/>
+  
+  <!-- Cab Window -->
+  <rect x="18" y="38" width="12" height="8" rx="2" fill="#E0F2FE" opacity="0.9"/>
+  
+  <!-- Container Details -->
+  <rect x="55" y="35" width="40" height="25" rx="2" fill="#991B1B" opacity="0.5"/>
+  <path d="M60 40h30M60 45h30M60 50h30" stroke="#7F1D1D" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Container Door -->
+  <rect x="85" y="38" width="12" height="20" rx="1" fill="#7F1D1D"/>
+  <rect x="87" y="40" width="8" height="16" rx="0.5" fill="#991B1B" opacity="0.8"/>
+  <circle cx="89" cy="48" r="0.5" fill="#FEF3C7"/>
+  
+  <!-- Front Grille -->
+  <rect x="45" y="45" width="3" height="10" rx="1" fill="#991B1B"/>
+  <rect x="45" y="47" width="5" height="1" fill="#DC2626" opacity="0.8"/>
+  <rect x="45" y="49" width="5" height="1" fill="#DC2626" opacity="0.8"/>
+  <rect x="45" y="51" width="5" height="1" fill="#DC2626" opacity="0.8"/>
+  
+  <!-- Front Lights -->
+  <ellipse cx="48" cy="50" rx="3" ry="2" fill="#FEF3C7"/>
+  <ellipse cx="48" cy="50" rx="2" ry="1" fill="#F59E0B"/>
+  
+  <!-- Wheels -->
+  <circle cx="25" cy="62" r="8" fill="#374151"/>
+  <circle cx="25" cy="62" r="5" fill="#6B7280"/>
+  <circle cx="25" cy="62" r="2" fill="#9CA3AF"/>
+  <circle cx="70" cy="62" r="8" fill="#374151"/>
+  <circle cx="70" cy="62" r="5" fill="#6B7280"/>
+  <circle cx="70" cy="62" r="2" fill="#9CA3AF"/>
+  <circle cx="90" cy="62" r="8" fill="#374151"/>
+  <circle cx="90" cy="62" r="5" fill="#6B7280"/>
+  <circle cx="90" cy="62" r="2" fill="#9CA3AF"/>
+  
+  <!-- Brand Badge -->
+  <rect x="20" y="48" width="15" height="4" rx="2" fill="#991B1B"/>
+  
+  <!-- Motion Lines -->
+  <path d="M5 25h8M8 30h6M5 35h10" stroke="#DC2626" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>

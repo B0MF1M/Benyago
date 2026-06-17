@@ -1,0 +1,34 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Executive Car Body -->
+  <path d="M12 40h96c2.76 0 5 2.24 5 5v20c0 2.76-2.24 5-5 5H12c-2.76 0-5-2.24-5-5V45c0-2.76 2.24-5 5-5z" fill="#1F2937"/>
+  
+  <!-- Executive Car Roof -->
+  <path d="M22 30c0-2.76 2.24-5 5-5h66c2.76 0 5 2.24 5 5v10H22V30z" fill="#111827"/>
+  
+  <!-- Luxury Windows -->
+  <rect x="27" y="32" width="20" height="8" rx="2" fill="#E5F3FF" opacity="0.9"/>
+  <rect x="52" y="32" width="20" height="8" rx="2" fill="#E5F3FF" opacity="0.9"/>
+  <rect x="77" y="32" width="15" height="8" rx="2" fill="#E5F3FF" opacity="0.9"/>
+  
+  <!-- Chrome Details -->
+  <rect x="12" y="48" width="96" height="2" fill="#D1D5DB"/>
+  <rect x="22" y="38" width="76" height="1" fill="#D1D5DB"/>
+  
+  <!-- Premium Front Lights -->
+  <ellipse cx="110" cy="52" rx="4" ry="3" fill="#FEF3C7"/>
+  <ellipse cx="110" cy="52" rx="2" ry="1.5" fill="#F59E0B"/>
+  
+  <!-- Luxury Wheels -->
+  <circle cx="28" cy="62" r="9" fill="#374151"/>
+  <circle cx="28" cy="62" r="6" fill="#9CA3AF"/>
+  <circle cx="28" cy="62" r="3" fill="#D1D5DB"/>
+  <circle cx="92" cy="62" r="9" fill="#374151"/>
+  <circle cx="92" cy="62" r="6" fill="#9CA3AF"/>
+  <circle cx="92" cy="62" r="3" fill="#D1D5DB"/>
+  
+  <!-- Executive Badge -->
+  <rect x="45" y="45" width="30" height="6" rx="3" fill="#D1D5DB" opacity="0.8"/>
+  
+  <!-- Motion Lines -->
+  <path d="M2 25h10M5 30h8M2 35h12" stroke="#6B7280" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

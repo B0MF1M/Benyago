@@ -1,0 +1,28 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Van Body -->
+  <path d="M15 25h85c2.76 0 5 2.24 5 5v35c0 2.76-2.24 5-5 5H15c-2.76 0-5-2.24-5-5V30c0-2.76 2.24-5 5-5z" fill="#059669"/>
+  
+  <!-- Van Roof -->
+  <path d="M15 25h85v15H15V25z" fill="#047857"/>
+  
+  <!-- Windows -->
+  <rect x="20" y="28" width="15" height="8" rx="2" fill="#E5F3FF" opacity="0.8"/>
+  <rect x="40" y="28" width="20" height="8" rx="2" fill="#E5F3FF" opacity="0.8"/>
+  <rect x="65" y="28" width="20" height="8" rx="2" fill="#E5F3FF" opacity="0.8"/>
+  <rect x="90" y="28" width="8" height="8" rx="2" fill="#E5F3FF" opacity="0.8"/>
+  
+  <!-- Front Lights -->
+  <ellipse cx="103" cy="45" rx="3" ry="2" fill="#FEF3C7"/>
+  
+  <!-- Wheels -->
+  <circle cx="28" cy="62" r="8" fill="#374151"/>
+  <circle cx="28" cy="62" r="5" fill="#6B7280"/>
+  <circle cx="92" cy="62" r="8" fill="#374151"/>
+  <circle cx="92" cy="62" r="5" fill="#6B7280"/>
+  
+  <!-- Cargo Area -->
+  <rect x="20" y="45" width="60" height="15" rx="2" fill="#047857" opacity="0.3"/>
+  
+  <!-- Motion Lines -->
+  <path d="M5 20h8M8 25h6M5 30h10" stroke="#059669" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>
