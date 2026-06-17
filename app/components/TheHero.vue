@@ -36,7 +36,7 @@
           <XButton
             @click="openWhatsApp('Olá! Gostaria de solicitar uma demonstração da Banyago Transporte.')"
             size="lg"
-            class="hidden md:inline-flex !bg-brand-electric !border-brand-electric !text-white shadow-lg hover:shadow-brand-electric/40 hover:scale-[1.02] active:scale-[0.98] !transition-all !duration-300 !font-bold !px-8 !py-3.5"
+            class="!bg-brand-electric !border-brand-electric !text-white shadow-lg hover:shadow-brand-electric/40 hover:scale-[1.02] active:scale-[0.98] !transition-all !duration-300 !font-bold !px-8 !py-3.5"
           >
             Solicitar Demonstração
           </XButton>
