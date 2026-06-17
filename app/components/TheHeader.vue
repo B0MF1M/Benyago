@@ -16,6 +16,13 @@
         </nav>
 
         <div class="flex items-center gap-3">
+          <XButton
+            @click="openWhatsApp"
+            size="md"
+            class="hidden md:flex !bg-brand-electric !border-brand-electric !text-white !rounded-xl !font-bold"
+          >
+            Solicitar Orçamento
+          </XButton>
           <button
             class="md:hidden w-10 h-10 flex items-center justify-center rounded-xl text-brand-dark hover:bg-secondary-100 transition-all duration-200"
             @click="toggleMobileMenu"
