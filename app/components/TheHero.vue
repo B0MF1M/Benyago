@@ -13,7 +13,7 @@
 
     <!-- Container -->
     <div class="relative z-10 container-pro min-h-screen flex items-center">
-      <div class="w-full max-w-3xl text-left py-20 lg:py-24 space-y-8">
+      <div class="w-full max-w-3xl text-left py-20 lg:py-24 mt-24 lg:mt-32 space-y-8">
         
         <div class="space-y-5 animate-slide-up">
           <h1 class="text-4xl sm:text-5xl xl:text-6xl font-extrabold text-white leading-[1.1] tracking-tight">
