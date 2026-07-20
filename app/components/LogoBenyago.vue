@@ -29,10 +29,10 @@ const props = withDefaults(defineProps<Props>(), {
 const logoSrc = '/images/logo-v3.jpg'
 
 const heightMap: Record<string, string> = {
-  sm: '40px',
-  md: '48px',
-  lg: '56px',
-  xl: '64px',
+  sm: '60px',
+  md: '72px',
+  lg: '84px',
+  xl: '96px',
 }
 
 const imgStyle = computed(() => ({
