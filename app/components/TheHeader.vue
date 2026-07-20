@@ -1,8 +1,8 @@
 <template>
   <header class="fixed top-0 w-full z-50 bg-white border-b border-secondary-200 shadow-sm">
     <div class="container-pro">
-      <nav class="flex items-center justify-between py-4" role="navigation" aria-label="Navegação principal">
-        <LogoBenyago size="xl" />
+      <nav class="flex items-center justify-between py-2 lg:py-3" role="navigation" aria-label="Navegação principal">
+        <LogoBenyago size="md" />
 
         <nav class="hidden md:flex items-center gap-10" aria-label="Menu principal">
           <NuxtLink
