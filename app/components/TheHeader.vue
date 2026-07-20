@@ -1,7 +1,7 @@
 <template>
   <header class="fixed top-0 w-full z-50 bg-white border-b border-secondary-200 shadow-sm">
     <div class="container-pro">
-      <nav class="flex items-center justify-between h-20 lg:h-24" role="navigation" aria-label="Navegação principal">
+      <nav class="flex items-center justify-between py-4" role="navigation" aria-label="Navegação principal">
         <LogoBenyago size="xl" />
 
         <nav class="hidden md:flex items-center gap-10" aria-label="Menu principal">
