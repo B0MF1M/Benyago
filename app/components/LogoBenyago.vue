@@ -29,10 +29,10 @@ const props = withDefaults(defineProps<Props>(), {
 const logoSrc = '/logo-benyago.png'
 
 const heightMap: Record<string, string> = {
-  sm: '80px',
-  md: '96px',
-  lg: '112px',
-  xl: '128px',
+  sm: '100px',
+  md: '140px',
+  lg: '180px',
+  xl: '220px',
 }
 
 const imgStyle = computed(() => ({
