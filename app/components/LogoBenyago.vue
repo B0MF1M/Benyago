@@ -26,7 +26,7 @@ const props = withDefaults(defineProps<Props>(), {
   showTagline: false
 })
 
-const logoSrc = '/logo-benyago.png'
+const logoSrc = '/logo-benyago-sem-fundo.png'
 
 const heightMap: Record<string, string> = {
   sm: '100px',
